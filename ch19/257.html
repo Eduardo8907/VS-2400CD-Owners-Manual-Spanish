@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19 - p257</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- === START HEADER === -->
+    <header role="banner">
+        <h1>19 - Operaciones de Edición de Frases</h1>
+        <nav class="navbar">
+            <a href="/tableOfContents.html">Tabla de Contenido</a> 
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 1-12 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch1/29.html">1. Bienvenidos</a>
+                 <a href="/ch2/33.html">2. Empezando</a>
+                 <a href="/ch3/51.html">3. Introducción al vs-2400CD</a>
+                 <a href="/ch4/61.html">4. Configuración y Operaciones Básicas</a>
+                 <a href="/ch5/79.html">5. Comprensión De Los Efectos</a>
+                 <a href="/ch6/83.html">6. Entender la Grabadora de Disco Duro</a>
+                 <a href="/ch7/89.html">7. Operaciones de Proyecto e Impulsión</a>
+                 <a href="/ch8/115.html">8. La Pantalla de Iinicio</a>
+                 <a href="/ch9/125.html">9. Trabajando Con Señales de Entrada</a>
+                 <a href="/ch10/133.html">10. Usando el Mezclador Digital</a>
+                 <a href="/ch11/145.html">11. Herramientas de Canal de Entrada y seguimiento</a>
+                 <a href="/ch12/165.html">12.Trabajando con Canales de Entrada</a>
+             </div>
+            </div>
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 13-24 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch13/171.html">13. Operar la Grabadora de Disco Duro</a>
+                 <a href="/ch14/189.html">14. Trabajar con Canales de Seguimiento</a>
+                 <a href="/ch15/199.html">15. Buses Auxiliares y Rutas Directas</a>
+                 <a href="/ch16/207.html">16. Usando Efectos</a>
+                 <a href="/ch17/223.html">17. Trabajando con Canales de Retorno FX</a>
+                 <a href="/ch18/231.html">18. Editar Pistas</a>
+                 <a href="/ch19/251.html">19. Oeraciones de Edición de Frases</a>
+                 <a href="/ch20/261.html">20. Operación de Edición de Región</a>
+                 <a href="/ch21/271.html">21. Trabajando con las salidas del VS-2400CD</a>
+                 <a href="/ch22/277.html">22. Enrutamiento EZ</a>
+                 <a href="/ch23/285.html">23. MIDI y Sincronización</a>
+                 <a href="/ch24/309.html">24. Rodear</a>
+             </div>
+            </div>
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 25-36 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch25/315.html">25. Automezcla</a>
+                 <a href="/ch26/331.html">26. Operaciones de Masterización y CD-R / RW</a>
+                 <a href="/ch27/353.html">27. Parámetros del Menú de Utilidades</a>
+                 <a href="/ch28/373.html">28. Expandiendo el VS-2400CD</a>
+                 <a href="/ch29/381.html">29. Uso de un Monitor VGA: Descripción General</a>
+                 <a href="/ch30/387.html">30. Elementos universales de la pantalla principal VGA</a>
+                 <a href="/ch31/397.html">31. Pantalla de inicio de la pantalla principal VGA</a>
+                 <a href="/ch32/411.html">32. Pantalla principal VGA Pantallas CH VIEW</a>
+                 <a href="/ch33/421.html">33. Vistas del mezclador de la pantalla principal VGA</a>
+                 <a href="/ch34/437.html">34. Pantalla principal VGA Pantalla EZ ROUTING</a>
+                 <a href="/ch35/441.html">35. Edición de mezcla automática de pantalla principal VGA</a>
+                 <a href="/Supplemental Information/SI.html">Información Suplementaria</a>
+             </div>
+         </div> 
+         </nav>
+        <span class="row">
+            <a href="256.html" class="previous">&laquo; 256 </a>
+            <p> 257</p>
+            <a href="258.html" class="next">258 &raquo;</a>
+        </span>
+    </header>
+    <!--end of header-->
+
+    <!-- === START MAIN CONTENT === -->
+    <div class="content" role="main">
+        <article>
+            <h4>Por qué usaría la frase DIVIDE</h4>
+            <p>Frase DIVIDE divide una frase más larga en frases más pequeñas para que pueda trabajar fácilmente con los elementos de una grabación de forma individual. Busca lograr el mismo resultado que la frase SPLIT ( <a href="/ch19/254.html">Página 254</a> ), pero lo hace automáticamente y trabajando con una frase completa en una sola operación de edición.</p>
+            <h4>IN Umbral</h4>
+            <p>IN Threshold establece el nivel en el que comienza una nueva frase. A medida que el VS-2400CD busca su siguiente frase, considera un nivel superior al valor del parámetro IN Threshold para indicar el comienzo de una nueva frase. IN Threshold se puede establecer entre -84 dB y -6 dB.</p>
+            <h4>En margen</h4>
+            <p>El VS-2400CD agrega la cantidad de tiempo seleccionada por el parámetro IN Margin al principio de una frase recién creada para asegurar que la frase no comience demasiado abruptamente en el medio de una señal en su camino hacia el nivel IN Threshold.</p>
+            <h4>OUT Umbral</h4>
+            <p>OUT Threshold establece el nivel en el que termina una frase. Cuando la señal de una frase cae por debajo del nivel establecido por el parámetro OUT Threshold, el VS-2400CD considera que la frase actual está completa y comienza a buscar la siguiente frase. El umbral de SALIDA se puede establecer entre -84 dB y -6 dB.</p>
+            <h4>Margen de salida</h4>
+            <p> El VS-2400CD agrega la cantidad de tiempo seleccionada por el parámetro OUT Margin al final de una frase recién creada para garantizar que su audio no se corte prematuramente cuando su señal descienda de nivel por debajo del umbral OUT.</p>
+            <h3>NOMBRE</h3>
+            <h4>Uso: menú TRACK</h4>
+            <!-- === SIDE IMG === -->
+            <figure class="sideimg">
+                <figcaption>Menú PISTA<br>F5 (NOMBRE)</figcaption>
+                <img src="#" alt="Imagen">
+            </figure>
+            <!-- === .sideimg === -->
+            <p>Puedes nombrar cualquier frase. La pantalla principal de NOMBRE proporciona una pantalla de selección de frase en la que puede seleccionar la frase deseada. Si la frase que desea no está disponible en la pantalla, mueva la línea de ahora para que toque la frase y presione F1 (NOMBRE). Para conocer las herramientas de asignación de nombres del VS-2400CD, consulte "Asignación de nombres" en la <a href="/ch4/71.html">página 71</a>.</p>
+            <h4>Por qué usaría la frase NAME</h4>
+            <p>Cuando nombra una frase, es más fácil de identificar en la lista de reproducción y cuando está seleccionando frases durante la edición.</p>
+        </article>
+    </div>
+     <!-- end #content -->
+
+    <!-- === START FOOTER === -->
+    <footer role="contentinfo">
+        <span class="row">
+            <a href="256.html" class="previous">&laquo; 256 </a>
+            <p> 257</p>
+            <a href="258.html" class="next">258 &raquo;</a>
+        </span>
+    </footer>
+    <!--end of footer--> 
+</body>
+</html>
