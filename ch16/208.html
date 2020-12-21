@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16 - p.208</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- === START HEADER === -->
+    <header role="banner">
+        <h1>16 — Uso de efectos</h1>
+        <nav class="navbar">
+            <a href="/tableOfContents.html">Tabla de Contenido</a> 
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 1-12 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch1/29.html">1. Bienvenidos</a>
+                 <a href="/ch2/33.html">2. Empezando</a>
+                 <a href="/ch3/51.html">3. Introducción al vs-2400CD</a>
+                 <a href="/ch4/61.html">4. Configuración y Operaciones Básicas</a>
+                 <a href="/ch5/79.html">5. Comprensión De Los Efectos</a>
+                 <a href="/ch6/83.html">6. Entender la Grabadora de Disco Duro</a>
+                 <a href="/ch7/89.html">7. Operaciones de Proyecto e Impulsión</a>
+                 <a href="/ch8/115.html">8. La Pantalla de Iinicio</a>
+                 <a href="/ch9/125.html">9. Trabajando Con Señales de Entrada</a>
+                 <a href="/ch10/133.html">10. Usando el Mezclador Digital</a>
+                 <a href="/ch11/145.html">11. Herramientas de Canal de Entrada y seguimiento</a>
+                 <a href="/ch12/165.html">12.Trabajando con Canales de Entrada</a>
+             </div>
+            </div>
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 13-24 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch13/171.html">13. Operar la Grabadora de Disco Duro</a>
+                 <a href="/ch14/189.html">14. Trabajar con Canales de Seguimiento</a>
+                 <a href="/ch15/199.html">15. Buses Auxiliares y Rutas Directas</a>
+                 <a href="/ch16/207.html">16. Usando Efectos</a>
+                 <a href="/ch17/223.html">17. Trabajando con Canales de Retorno FX</a>
+                 <a href="/ch18/231.html">18. Editar Pistas</a>
+                 <a href="/ch19/251.html">19. Oeraciones de Edición de Frases</a>
+                 <a href="/ch20/261.html">20. Operación de Edición de Región</a>
+                 <a href="/ch21/271.html">21. Trabajando con las salidas del VS-2400CD</a>
+                 <a href="/ch22/277.html">22. Enrutamiento EZ</a>
+                 <a href="/ch23/285.html">23. MIDI y Sincronización</a>
+                 <a href="/ch24/309.html">24. Rodear</a>
+             </div>
+            </div>
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 25-36 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch25/315.html">25. Automezcla</a>
+                 <a href="/ch26/331.html">26. Operaciones de Masterización y CD-R / RW</a>
+                 <a href="/ch27/353.html">27. Parámetros del Menú de Utilidades</a>
+                 <a href="/ch28/373.html">28. Expandiendo el VS-2400CD</a>
+                 <a href="/ch29/381.html">29. Uso de un Monitor VGA: Descripción General</a>
+                 <a href="/ch30/387.html">30. Elementos universales de la pantalla principal VGA</a>
+                 <a href="/ch31/397.html">31. Pantalla de inicio de la pantalla principal VGA</a>
+                 <a href="/ch32/411.html">32. Pantalla principal VGA Pantallas CH VIEW</a>
+                 <a href="/ch33/421.html">33. Vistas del mezclador de la pantalla principal VGA</a>
+                 <a href="/ch34/437.html">34. Pantalla principal VGA Pantalla EZ ROUTING</a>
+                 <a href="/ch35/441.html">35. Edición de mezcla automática de pantalla principal VGA</a>
+                 <a href="/Supplemental Information/SI.html">Información Suplementaria</a>
+             </div>
+         </div> 
+         </nav>
+         <span class="row">
+            <a href="/ch16/207.html" class="previous">&laquo; 207 </a>
+            <p> 208</p>
+            <a href="/ch16/209.html" class="next">209 &raquo;</a>
+        </span>
+    </header>
+    <!--end of header-->
+
+    <!-- === START MAIN CONTENT === -->
+    <div class="content" role="main">
+        <article>
+            <h4>La mecánica de un efecto de bucle</h4>
+            <p>Hay seis pasos para configurar un efecto de bucle interno:</p>
+            <ol>
+                <li>Elija uno de los procesadores de efectos internos como el que utilizará.</li>
+                <li>Enruta una ruta auxiliar o directa al efecto seleccionado</li>
+                <li>Configure la ruta Aux o Directa como desee.</li>
+                <li>Envíe señales al bus Aux o ruta directa y, como resultado, al efecto</li>
+                <li>Devuelve la salida del efecto al destino deseado</li>
+                <li>Seleccione y edite, si es necesario, el parche de efecto deseado</li>
+            </ol>
+            <p>Seleccione el parche deseado, y edítelo, si es necesario, como último paso, ya que no podrá escucharlo, y lo que está haciendo, hasta que se hayan realizado los pasos anteriores.</p>
+            <h4>Elija un procesador de efectos</h4>
+            <p>Como se envía de fábrica, el VS-2400CD tiene dos procesadores de efectos estéreo, Efecto 1 y Efecto 2. Con un VS8F-2 opcional instalado, los Efectos 3 y 4 están disponibles. Algunos algoritmos solo funcionan con ciertos procesadores; consulte la <a href="/ch16/216.html">página 216</a> para obtener más información.</p>
+            <h4>Enrutar una ruta auxiliar o directa al efecto seleccionado</h4>
+            <p>De forma predeterminada, los buses auxiliares 1-4 del VS-2400CD se enrutan a los efectos 1-4, respectivamente. Si no tiene ninguna razón en particular para cambiar esta disposición, puede omitir este paso.</p>
+            <p>Puede enrutar cualquier bus auxiliar o ruta directa a cualquier efecto; la <a href="/ch15/204.html">página 204</a> en el capítulo 15 describe cómo hacer esto.</p>
+            <h4>Configurar la ruta auxiliar o directa</h4>
+            <p>Deberá decidir si desea enviar señales desde sus canales de retorno de entrada, pista o FX a la ruta Aux o Directa antes o después de los faders de canal. A menos que esté planeando un efecto inusual cuyo nivel se mantiene constante a medida que cambia el nivel de la señal seca, configure el bus para que esté en Pre.</p>
+            <p>Puede vincular buses auxiliares pares / impares para crear un envío estéreo en un efecto. Consulte el diagrama de algoritmo en los Apéndices del VS-2400CD para ver el efecto que desea usar para ver si acepta señales de entrada estéreo. Si no es así, utilice un solo bus auxiliar no vinculado. La mayoría de los VS-2400CD producen efectos estéreo a partir de una señal de entrada mono.</p>
+            <p>La <a href="/ch15/201.html">página 201</a> describe cómo configurar un bus auxiliar. Para saber cómo configurar una ruta directa, consulte la <a href="/ch15/203.html">página 203</a>.</p>
+            <h4>Enviar señales al efecto</h4>
+            <p>Puede enviar una señal de entrada, pista o canal de retorno de efectos a un bus Aux usando su fader, como se describe en la <a href="/ch10/136.html">página 136</a>, o usando sus controles de envío auxiliar CH EDIT.</p>
+            <p>Cada entrada, pista y canal de retorno de efectos proporciona ocho conjuntos de controles de envío auxiliar CH EDIT con los que puede enviar la señal del canal a cualquiera de los buses auxiliares. Los primeros cuatro de esos módulos de control auxiliares envían la señal del canal a los buses auxiliares 1-4 y, por lo tanto, a los efectos 1-4, respectivamente.</p>
+
+        </article>
+    </div>
+     <!-- end #content -->
+
+    <!-- === START FOOTER === -->
+    <footer role="contentinfo">
+        <span class="row">
+            <a href="/ch16/207.html" class="previous">&laquo; 207 </a>
+            <p> 208</p>
+            <a href="/ch16/209.html" class="next">209 &raquo;</a>
+        </span>
+    </footer>
+    <!--end of footer--> 
+</body>
+</html>

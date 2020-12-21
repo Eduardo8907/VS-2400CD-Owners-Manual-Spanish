@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16 - p.216</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- === START HEADER === -->
+    <header role="banner">
+        <h1>16 — Uso de efectos</h1>
+        <nav class="navbar">
+            <a href="/tableOfContents.html">Tabla de Contenido</a> 
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 1-12 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch1/29.html">1. Bienvenidos</a>
+                 <a href="/ch2/33.html">2. Empezando</a>
+                 <a href="/ch3/51.html">3. Introducción al vs-2400CD</a>
+                 <a href="/ch4/61.html">4. Configuración y Operaciones Básicas</a>
+                 <a href="/ch5/79.html">5. Comprensión De Los Efectos</a>
+                 <a href="/ch6/83.html">6. Entender la Grabadora de Disco Duro</a>
+                 <a href="/ch7/89.html">7. Operaciones de Proyecto e Impulsión</a>
+                 <a href="/ch8/115.html">8. La Pantalla de Iinicio</a>
+                 <a href="/ch9/125.html">9. Trabajando Con Señales de Entrada</a>
+                 <a href="/ch10/133.html">10. Usando el Mezclador Digital</a>
+                 <a href="/ch11/145.html">11. Herramientas de Canal de Entrada y seguimiento</a>
+                 <a href="/ch12/165.html">12.Trabajando con Canales de Entrada</a>
+             </div>
+            </div>
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 13-24 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch13/171.html">13. Operar la Grabadora de Disco Duro</a>
+                 <a href="/ch14/189.html">14. Trabajar con Canales de Seguimiento</a>
+                 <a href="/ch15/199.html">15. Buses Auxiliares y Rutas Directas</a>
+                 <a href="/ch16/207.html">16. Usando Efectos</a>
+                 <a href="/ch17/223.html">17. Trabajando con Canales de Retorno FX</a>
+                 <a href="/ch18/231.html">18. Editar Pistas</a>
+                 <a href="/ch19/251.html">19. Oeraciones de Edición de Frases</a>
+                 <a href="/ch20/261.html">20. Operación de Edición de Región</a>
+                 <a href="/ch21/271.html">21. Trabajando con las salidas del VS-2400CD</a>
+                 <a href="/ch22/277.html">22. Enrutamiento EZ</a>
+                 <a href="/ch23/285.html">23. MIDI y Sincronización</a>
+                 <a href="/ch24/309.html">24. Rodear</a>
+             </div>
+            </div>
+            <div class="dropdown">
+             <button class="dropbtn">Capítulos 25-36 <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                 <a href="/ch25/315.html">25. Automezcla</a>
+                 <a href="/ch26/331.html">26. Operaciones de Masterización y CD-R / RW</a>
+                 <a href="/ch27/353.html">27. Parámetros del Menú de Utilidades</a>
+                 <a href="/ch28/373.html">28. Expandiendo el VS-2400CD</a>
+                 <a href="/ch29/381.html">29. Uso de un Monitor VGA: Descripción General</a>
+                 <a href="/ch30/387.html">30. Elementos universales de la pantalla principal VGA</a>
+                 <a href="/ch31/397.html">31. Pantalla de inicio de la pantalla principal VGA</a>
+                 <a href="/ch32/411.html">32. Pantalla principal VGA Pantallas CH VIEW</a>
+                 <a href="/ch33/421.html">33. Vistas del mezclador de la pantalla principal VGA</a>
+                 <a href="/ch34/437.html">34. Pantalla principal VGA Pantalla EZ ROUTING</a>
+                 <a href="/ch35/441.html">35. Edición de mezcla automática de pantalla principal VGA</a>
+                 <a href="/Supplemental Information/SI.html">Información Suplementaria</a>
+             </div>
+         </div> 
+         </nav>
+         <span class="row">
+            <a href="/ch16/215.html" class="previous">&laquo; 215 </a>
+            <p> 216</p>
+            <a href="/ch16/117.html" class="next">117 &raquo;</a>
+        </span>
+    </header>
+    <!--end of header-->
+
+    <!-- === START MAIN CONTENT === -->
+    <div class="content" role="main">
+        <article>
+            <h4>Patches de efectos predefinidos y de usuario</h4>
+            <p>La memoria del VS-2400CD contiene 250 patches "predefinidos" diseñados para satisfacer una amplia gama de necesidades de procesamiento de efectos. Los parches predefinidos no se pueden borrar ni modificar, aunque puede usarlos como base para sus propios parches, por lo que siempre están ahí para que los use.</p>
+            <p>También puede almacenar 200 de sus propios patches de “usuario” en la memoria del VS-2400CD. Puede crear estos patches comenzando con los algoritmos de efectos integrados (consulte “Empezando desde cero” a continuación) o personalizar los patches predefinidos para su propio uso y guardarlos como sus propios parches de usuario nuevo. Su colección de parches de usuario está disponible en cualquier proyecto.</p>
+            <p>Tal como se envía de fábrica, los parches de usuario del VS-2400CD son copias de los primeros 200 parches predeterminados. Dado que son solo copias, puede reemplazarlas con sus propios parches de usuario sin temor a perder nada.</p>
+            <h4>Comenzando desde cero</h4>
+            <p>Los 36 algoritmos de efectos del VS-2400CD (Página 54) son la base sobre la que se construyen los patches de efectos. Para crear su propio parche de efectos desde cero, comience con uno de los primeros 36 parches predefinidos: P000-P035. Estos parches utilizan la configuración predeterminada de cada algoritmo.</p>
+            <h4>Prefijos, números y nombres de parches de efectos</h4>
+            <p>Cada parche de efecto recibe un nombre utilizando un conjunto específico de convenciones de nomenclatura que proporcionan información sobre el parche. Cada parche tiene un:</p>
+            <ul>
+                <li>prefijo: le indica si es un parche predeterminado o un parche de usuario. Si el nombre del parche comienza con una "P", es un parche predefinido. Si comienza con "U", es un parche de usuario</li>
+                <li>número: que muestra la posición del parche en la lista de parches.</li>
+                <li>nombre: que describe el parche. Si el parche no es un parche predeterminado (ver más arriba), su nombre está precedido por una abreviatura que le indica el algoritmo en el que se basa. El nombre de un parche predeterminado es el nombre de su algoritmo.</li>
+            </ul>
+            <h4>Haga coincidir el parche con el procesador</h4>
+            <p>Debido a los requisitos de procesamiento de algunos de los algoritmos de efectos, no todos los procesadores pueden utilizar todos los parches.</p>
+            <p>Los parches de efectos basados en los siguientes algoritmos no se pueden seleccionar para los procesadores de efectos pares, Efecto 2 y 4:</p>
+            <!-- TABLE -->
+            <table>
+                <tr>
+                    <td class="liclear"><ul><li>Reverberación</li></ul></td>
+                    <td class="liclear"><ul><li>Gate Reverb</li></ul></td>
+                    <td class="liclear"><ul><li>Codificador de voz2 (19)</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="liclear"><ul><li>Transformador de voz</li></ul></td>
+                    <td class="liclear"><ul><li>Kit de herramientas de masterización</li></ul></td>                    
+                </tr>
+            </table>
+            <!-- END TABLE -->
+            <p>En la lista de parches para los procesadores pares, los parches basados en estos algoritmos aparecen en gris y no se pueden seleccionar.</p>
+            <p>Dado que los siguientes algoritmos requieren dos procesadores de efectos, solo se pueden seleccionar para procesadores impares (Efecto 1 o 3) y el socio de número par del procesador seleccionado (Efecto 2 o 4, respectivamente) deja de estar disponible para otros usos:</p>
+            <table>
+                <tr>
+                    <td class="liclear"><ul><li>Codificador de voz2 (19)</li></ul></td>
+                    <td class="liclear"><ul><li>Transformador de voz</li></ul></td>
+                    <td class="liclear"><ul><li>Kit de herramientas de masterización</li></ul></td>                    
+                </tr>
+            </table>
+            <p>Si un procesador de número impar usa un parche basado en uno de estos algoritmos, el cuadro EFFECT VIEW y el botón F para su socio de número par aparecen atenuados.</p>
+
+
+        </article>
+    </div>
+     <!-- end #content -->
+
+    <!-- === START FOOTER === -->
+    <footer role="contentinfo">
+        <span class="row">
+            <a href="/ch16/215.html" class="previous">&laquo; 215 </a>
+            <p> 216</p>
+            <a href="/ch16/117.html" class="next">117 &raquo;</a>
+        </span>
+    </footer>
+    <!--end of footer--> 
+</body>
+</html>

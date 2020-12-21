@@ -5,7 +5,7 @@ body {
     margin: auto;
 }
 .empty {
-    height: 800px;
+    height: 500px;
 }
 /* === HEADER === */
 .mainheader{
@@ -28,6 +28,7 @@ header h1 {
 .top {
     border-style: ridge;
 }
+/* END HEADER */
 /* DROP DOWN NAV */
 .navbar {
     overflow: hidden;
@@ -83,6 +84,7 @@ header h1 {
 .dropdown:hover .dropdown-content {
    display: block;
 }  
+/* END DROPDOWN */
 /* === MAIN CONTENT == */
 .content {
     clear: both;
@@ -97,6 +99,19 @@ article {
     /* float: left; */
     /* border-right: 2px dotted black; */
     /* margin-right: 5px; */
+}
+.list{
+    width: 80%;
+    padding-left: 10%;
+}   
+th, td {
+    padding: 5px;
+} 
+td {
+    border-top: solid;
+}
+td.liclear {
+    border: none;
 }
 /* === IMAGE === */
 img {
