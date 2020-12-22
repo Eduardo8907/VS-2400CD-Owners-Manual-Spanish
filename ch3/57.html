@@ -78,7 +78,45 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <p>desea trabajar según sea necesario. También puede copiar datos entre proyectos. Las operaciones del proyecto se analizan en el Capítulo 7 en la <a href="/ch7/89.html">página 89</a>. Ahí es donde describiremos cómo crear y nombrar un nuevo proyecto.</p>
+            <p>Si el destino final previsto para su proyecto es un CD de audio, asegúrese de seleccionar una frecuencia de muestreo de 44,1 kHz para su proyecto cuando lo cree; consulte la <a href="/ch26/331.html">página 331.</a></p>
+            <h4>Acerca de los eventos</h4>
+            <p>El fragmento más pequeño de datos del proyecto con el que trabaja el VS-2400CD se denomina "evento", un fragmento de información que el VS-2400CD necesita para hacer su trabajo. Por ejemplo, cada grabación que realiza utiliza al menos dos eventos: uno que le dice al VS-2400CD en qué parte del disco duro comienza el archivo de grabación y otro que le dice dónde termina. Cada proyecto puede contener aproximadamente 30.000 eventos; cuando todos sus eventos se han agotado, el proyecto está lleno, incluso si le queda espacio en el disco. Puede recortar el número de eventos en un proyecto "optimizándolo", como se explica en el <a href="/ch7/89.html">Capítulo 7</a>.</p>
+            <h3>Buses en el VS-2400CD</h3>
+            <p>Para obtener señales de un lugar a otro dentro del VS-2400CD, y para proporcionar una manera de sacarlas del VS-2400CD, el VS-2400CD utiliza un conjunto de "buses". Si bien describiremos el uso de los buses del VS-2400CD en varios lugares a lo largo del Manual de instrucciones del VS-2400CD, es importante comprender primero qué es un bus.</p>
+            <h4>¿Qué es un bús?</h4>
+            <!-- === SIDE IMG === -->
+            <figure class="sideimg">
+                <figcaption></figcaption>
+                <img src="#" alt="Imagen">
+            </figure>
+            <!-- === .sideimg === -->
+            <p>Un autobús es un camino por el que una o más señales pueden viajar a un destino común.</p>
+            <p>En los mezcladores analógicos más antiguos, un bus era literalmente un solo cable al que se alimentaban las señales; luego, el cable se conectaba a la entrada del destino deseado.</p>
+            <p>Este mecanismo simple es más significativo de lo que parece, ya que le permite enviar un grupo de señales a una pista, a una mezcla, a un efecto, a salidas específicas y más. Gran parte de la transmisión por bus del VS-2400CD se produce entre bastidores, por lo que no siempre se ocupará directamente de él, pero algunos de sus buses desempeñan un papel importante y visible en sus operaciones.</p>
+            <p>Aunque todos los autobuses son esencialmente lo mismo, un camino, los autobuses reciben el nombre del tipo de señal que suelen llevar. El VS-2400CD proporciona los siguientes buses.</p>
+            <table>
+                <tr>
+                    <th>Tipo de bus:</th>
+                    <th>Que hace:</th>
+                </tr>
+                <tr>
+                    <td>GRABAR</td>
+                    <td>Cada uno de estos 24 buses lleva señales a una de las pistas de la grabadora del disco duro.</td>
+                </tr>
+                <tr>
+                    <td>MAESTRO</td>
+                    <td>Este par de buses estéreo izquierdo / derecho transporta la mezcla estéreo principal del VS-2400CD a cualquier número de destinos posibles.</td>
+                </tr>
+                <tr>
+                    <td>MONITOR</td>
+                    <td>Este par de buses estéreo izquierdo / derecho transporta señales a su dispositivo de escucha: altavoces o auriculares</td>
+                </tr>
+                <tr>
+                    <td>AUX</td>
+                    <td>"AUX" es la abreviatura de "Envío auxiliar". Los ocho buses AUX transportan señales a los efectos internos del VS-2400CD. También pueden transportar señales a salidas conectadas a dispositivos externos como cajas de efectos o amplificadores de auriculares para sus artistas.</td>
+                </tr>
+            </table>
         </article>
     </div>
      <!-- end #content -->
