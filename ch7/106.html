@@ -78,7 +78,37 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <q>Exportación a un VS-2480 / VS-2480CD</q>
+            <ul>
+                <li>Los ajustes de RSS PAN y los datos de V-Link Automix se descartan cuando un proyecto VS-2400CD se exporta como un proyecto VS-2480.</li>
+            </ul>
+            <h4>Exporting a VS-2400CD Project</h4>
+            <ol>
+                <li>Cargue el proyecto deseado en el VS-2400CD.</li>
+                <li>Mantenga presionado SHIFT y presione F1 (PROJECT).</li>
+                <li>Si "EXPORTAR" no está visible encima de F4, presione PAGE hasta que lo esté.</li>
+                <li>Presione F4 (EXPORTAR). Aparece la pantalla EXPORTACIÓN DE PROYECTO.</li>
+                <!-- === CENTER IMG === -->
+                <div class>
+                    <figure class="centerimg">
+                        <figcaption></figcaption>
+                        <img src="#" alt="Imagen">
+                    </figure>
+                </div>
+                <!-- .centerimg -->
+                <li>Configure los parámetros Verify y CD Speed:
+                    <ul>
+                        <li>La configuración de Verify determina si el VS-2400CD verifica o no la precisión de los datos que escribe en su CD. Activar Verify es siempre el método más seguro, aunque hace que la exportación tarde un poco más.</li>
+                        <li>Velocidad de CD: establece la velocidad a la que se escriben los datos exportados en el CD. Pruebe la configuración MAX para acelerar el proceso de EXPORTACIÓN. Si tiene problemas, pruebe con una configuración más lenta.</li>
+                    </ul>
+                </li>
+                <li>Configure el parámetro Guardar como para seleccionar el tipo de datos de V-Studio que exporta el VS-2400CD.</li>
+                <li>Exportar pista determina cuáles de las pistas del proyecto se exportan.</li>
+                <li>Presione F5 (OK). El VS-2400CD le pregunta si desea guardar los cambios recientes que haya realizado en el proyecto actual antes de continuar.</li>
+                <li>Presione ENTER / YES para guardar los cambios recientes, o EXIT / NO para pasar a la exportación. Si está utilizando un disco CD-RW que ya contiene datos, el VS-2400CD le pregunta si desea borrar el disco. Para obtener detalles sobre los mensajes que pueden aparecer, consulte la <a href="/ch26/344.html">página 344</a>.</li>
+                <li>Si un proyecto es demasiado grande para caber en el medio que está utilizando, el VS-2400CD le solicita medios adicionales según sea necesario. Inserte el medio solicitado y presione ENTER / YES, o presione EXIT / NO para cancelar el procedimiento.</li>
+            </ol>
+            <p>Durante una operación de exportación de varios CD, el VS-2400CD pregunta por cada disco dos veces: una vez para etiquetar el disco y una vez para escribir datos en el disco.</p>
         </article>
     </div>
      <!-- end #content -->

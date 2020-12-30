@@ -78,7 +78,55 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <h3>EXPORTAR</h3>
+            <p>Puede exportar el proyecto actual desde el VS-2400CD para que pueda reproducirse en:</p>
+            <table>
+                <tr>
+                    <td class="liclear"><ul><li>VS-880</li></ul></td>
+                    <td class="liclear"><ul><li>VS-880EX</li></ul></td>
+                    <td class="liclear"><ul><li>VSR-880</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="liclear"><ul><li>VS-890</li></ul></td>
+                    <td class="liclear"><ul><li>VS-1680EX</li></ul></td>
+                    <td class="liclear"><ul><li>VSR-1880</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="liclear"><ul><li>VS-2480/VS-2480CD</li></ul></td>
+                </tr>
+            </table>
+            <p>El VS-2400CD no exportará un proyecto directamente al formato de datos del VS-840. Puede exportar un proyecto como datos del VS-880 y utilizar la función de conversión de canciones del VS-840 para cargar los datos.</p>
+            <h4>Cómo funciona la exportación</h4>
+            <p>Esta sección describe cómo se traduce el proyecto VS-2400CD cargado actualmente para exportarlo a los diversos V-Studios. En todos los casos, cuando exporta un proyecto VS-2400CD, la canción recién creada utiliza la frecuencia de muestreo y el modo de grabación del proyecto.</p>
+            <p>El modo de grabación M16 del VS-2400CD es el mismo que el modo MAS en el VS-880, VS-880EX, VSR-880, VS-890, VS-1680 y VS-1880. El modo de grabación M16 del VS-2400CD es idéntico al del VS-2480 y VS-2480CD.</p>
+            <p>Puede exportar un proyecto a CD-R / RW como un archivo de canciones para V-Studios anteriores y como copia de seguridad para el VS-2480 / VS-2480CD.</p>
+            <q>Exportar a un VS-880 o VS-880EX</q>
+            <ul>
+                <li>Se exportan ocho pistas de proyecto. Puede seleccionar las pistas 1-8, 9-16 o 17-24.</li>
+                <li>Solo los V-Tracks 1-8 se exportan a las canciones del VS-880; para exportar datos en V-Tracks 9-16, copie los datos en V-Tracks 1-8. En las canciones del VS-880EX, las V-Tracks 1-8 del VS-2400CD se exportan al banco A y las V-Tracks 9-16 al banco B.</li>
+                <li>Solo se exportan los localizadores 00-31 del proyecto.</li>
+                <li>Los proyectos que utilizan los modos de grabación M24, MTP, CDR y LV2 no se pueden exportar como canciones VS-880 o VS-880EX.</li>
+            </ul>
+            <q>Exportar a un VS-890 o VSR-880</q>
+            <ul>
+                <li>Se exportan ocho pistas de proyecto. Puede seleccionar las pistas 1-8, 9-16 o 17-24</li>
+                <li>Las V-Tracks 1-8 se exportan al Banco A y las V-Tracks 9-16 al Banco B</li>
+                <li>Los proyectos que utilizan los modos de grabación M24 y LV2 no se pueden exportar como canciones VS-890 o VSR-880.</li>
+                <li>Los datos del proyecto grabados en MTP se convierten al modo VSR durante la exportación; este proceso puede llevar un tiempo</li>
+            </ul>
+            <q>Exportando a una VS-1680</q>
+            <ul>
+                <li>Se exportan 16 pistas de proyecto. Puede seleccionar las pistas 1-16 o 9-24.</li>
+                <li>Solo se exportan los localizadores 00-63 del proyecto.</li>
+                <li>Los proyectos que utilizan los modos de grabación M24 y CDR no pueden exportarse como canciones del VS-1680, ni tampoco los proyectos que contienen pistas de masterización CDR; consulte la <a href="/ch26/332.html">página 332</a></li>
+            </ul>
+            <q>Exportando a una VS-1880</q>
+            <ul>
+                <li>Se exportan 18 pistas de proyecto. Puede seleccionar las pistas 1-18 o 7-24.</li>
+                <li>Solo se exportan los localizadores 00-63 del proyecto.</li>
+                <li>Los proyectos que utilizan el modo de grabación M24 no se pueden exportar como canciones del VS-1880.</li>
+            </ul>
+
         </article>
     </div>
      <!-- end #content -->

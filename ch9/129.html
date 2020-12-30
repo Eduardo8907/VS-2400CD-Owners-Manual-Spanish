@@ -78,7 +78,47 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <h4>Designación del reloj maestro para la entrada de audio digital</h4>
+            <p>Cuando recibe señales de entrada digital de un dispositivo R-BUS conectado, cualquiera de los dispositivos puede servir como maestro; asegúrese de configurar el otro como esclavo.</p>
+            <p>Sin embargo, para que el VS-2400CD reciba correctamente audio digital de otros dispositivos de audio digitales externos, el VS-2400CD generalmente debe ser esclavo de un reloj maestro externo. A continuación, le indicamos cómo configurar una relación de audio digital maestro / esclavo exitosa:</p>
+            <ol>
+                <li>Mantenga presionada la tecla MAYÚS y presione F4 • UTILIDAD.</li>
+                <li>Presione PAGE hasta que aparezca "Proj" encima de F3</li>
+                <li>Presione F3 (Proj) para ver los parámetros de E / S DIGITAL.</li>
+                <!-- === CENTER IMG === -->
+                    <figure class="centerimg">
+                        <figcaption></figcaption>
+                        <img src="#" alt="Imagen">
+                    </figure>
+                <!-- .centerimg -->
+                <li>Presione, si es necesario, para seleccionar el parámetro MASTER CLOCK</li>
+                <li>Gire el dial de tiempo / valor para seleccionar la fuente de reloj maestro de palabras deseada.</li>
+            </ol>
+            <table>
+                <tr>
+                    <td>Cuando seleccionas</td>
+                    <td>El reloj maestro proviene de:</td>
+                </tr>
+                <tr>
+                    <td>INT</td>
+                    <td>La VS-2400CD.</td>
+                </tr>
+                <tr>
+                    <td>R-BUS</td>
+                    <td>el dispositivo conectado al conector R-BUS del VS-2400CD.</td>
+                </tr>
+                <tr>
+                    <td>ENTRADA DIGITAL</td>
+                    <td>dispositivo conectado a la toma COAXIAL u OPTICAL IN activada (<a href="/ch9/127.html">Página 127</a> ). El conector activo actualmente se muestra a la derecha de "DIGITAL IN".</td>
+                </tr>
+                <tr>
+                    <td>CÓDIGO DE HORA EXT</td>
+                    <td>el dispositivo conectado a la toma apropiada para el código de tiempo seleccionado como fuente de sincronización externa en la pantalla SYNC PARAMETER del menú UTILITY (<a href="/ch23/296.html">Página 296</a> ).</td>
+                </tr>
+            </table>
+            <h4>Finalización de la configuración maestro / esclavo</h4>
+            <p>Asegúrese de que el dispositivo designado como fuente de reloj maestro utilice su reloj interno como referencia de tiempo. En el VS-2400CD, configure MASTER CLOCK en INT en el paso 5 de la página 129.</p>
+            <p>Para saber cómo configurar cada dispositivo digital externo, consulte su documentación</p>
         </article>
     </div>
      <!-- end #content -->

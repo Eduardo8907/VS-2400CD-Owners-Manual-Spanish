@@ -78,7 +78,52 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <h3>NUEVA</h3>
+            <p>Cuando crea un nuevo proyecto, toma dos decisiones importantes que determinan tanto la naturaleza del proyecto como lo que puede hacer con su audio. Si bien estas opciones son producto de la gran flexibilidad del VS-2400CD, no se pueden cambiar una vez que se ha creado el proyecto, por lo que deben hacerse con cuidado. Antes de seguir los pasos necesarios para crear un nuevo proyecto, analicemos estas decisiones para que sepa qué hacer cuando las encuentre durante la creación del proyecto.</p>
+            <h4>Frecuencia de muestreo</h4>
+            <p>Todas las grabadoras digitales graban audio creando una representación numérica del audio en un momento particular en el tiempo; esta representación numérica se denomina "muestra". Al crear muestras miles de veces por segundo y reproducirlas con la misma rapidez, se crea la ilusión de un solo flujo de audio continuo. De hecho, lo que está escuchando es en realidad una serie de muestras separadas.</p>
+            <p>Dado que el audio cambia constantemente, cuantas más muestras haga un dispositivo de grabación por segundo, mayores serán sus posibilidades de capturar y reproducir fielmente su sonido.</p>
+            <p>La cantidad de veces por segundo que una grabadora digital muestrea audio se denomina "frecuencia de muestreo". El VS-2400CD puede grabar audio a una variedad de frecuencias de muestreo.</p>
+            <table>
+                <th>
+                    <td>Esta frecuencia de muestreo:</td>
+                    <td>Crea tantas muestras por segundo:</td>
+                </th>
+                <tr>
+                    <td>32k (kiloHertz)</td>
+                    <td>32,000</td>
+                </tr>
+                <tr>
+                    <td>44.1Hz</td>
+                    <td>41,000</td>
+                </tr>
+                <tr>
+                    <td>48kHz</td>
+                    <td>48,000</td>
+                </tr>
+                <tr>
+                    <td>64kHz</td>
+                    <td> 64,000</td>
+                </tr>
+                <tr>
+                    <td>88.2kHz</td>
+                    <td>88,200</td>
+                </tr>
+                <tr>
+                    <td>96kHz</td>
+                    <td>96,000</td>
+                </tr>
+            </table>
+            <p>Las frecuencias de muestreo se muestran en kilohercios o miles de ciclos / muestras. En la pantalla NEW del proyecto del VS-2400CD, "kHz" se abrevia como "k".</p>
+            <p>Podría pensar que siempre usaría la frecuencia de muestreo más alta, pero no es tan simple. Las frecuencias de muestreo más altas consumen espacio en disco más rápido y hay un problema aún más grave:</p>
+            <ul>
+                <li>Los CD de audio solo pueden reproducir audio grabado a 44.1k. Si planeas escribir tu proyecto en un CD de audio, usa la frecuencia de muestreo de 44.1k. (El Capítulo 26 describe la creación de CD de audio).</li>
+            </ul>
+            <p>Si bien puede exportar audio que no sea de 44.1k desde el VS-2400CD a través de R-BUS o como archivos .WAV (<a href="/ch26/348.html">página 348</a> ) para su procesamiento y eventual retorno al VS-2400CD para grabar un CD, la conversión de frecuencia de muestreo generalmente reduce la calidad del sonido. . Es más inteligente grabar su audio a 44.1k en primer lugar si planea entregarlo a los oyentes en un CD de audio.</p>
+            <p>Las otras frecuencias de muestreo disponibles se proporcionan para necesidades especiales. La grabación a 96k ofrece la más alta calidad de grabación pero, hasta ahora, solo los DVD pueden utilizar audio de 96k; por lo tanto, si está haciendo un proyecto para DVD, la grabación de 96k es una consideración. La frecuencia de muestreo de 48k puede ser útil si está importando digitalmente pistas grabadas de 48k desde un dispositivo digital externo.
+                dispositivo.</p>
+            <p>Algunos parches de efectos no están disponibles en proyectos que usan una frecuencia de muestreo de 64k o más</p>
+
         </article>
     </div>
      <!-- end #content -->

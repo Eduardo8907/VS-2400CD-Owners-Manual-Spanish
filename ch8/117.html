@@ -78,7 +78,50 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <h4>Cómo muestran las señales los medidores VS-2400CD</h4>
+            <!-- === SIDE IMG === -->
+            <figure class="sideimg">
+                <figcaption>El volumen de esta señal es -12 dB</figcaption>
+                <figcaption>El volumen de esta señal es de alrededor de -2 dB.</figcaption>
+                <img src="#" alt="Imagen">
+            </figure>
+            <!-- === .sideimg === -->
+            <p>Los niveles se muestran en la pantalla del VS-2400CD en una fila de medidores orientados verticalmente. La señal de cada medidor se muestra como una barra negra gruesa que crece a medida que su señal se hace más fuerte. Las marcas 48, 12, 4 y 0 a la izquierda de los medidores le muestran qué tan fuerte es la señal en dBs — -48 dB, -12 dB, -4 dB y 0 dB — a medida que la barra negra varía en altura.</p>
+            <h4>¿Qué tan fuerte es demasiado ruidosa?</h4>
+            <p>En general, desea que cada señal sea lo más fuerte posible sin exceder los 0 dB. 0 dB es lo más alto que puede llegar a ser una señal digital sin causar saturación; consulte la <a href="/ch3/58.html">página 58</a>.</p>
+            <p>Cada señal debe estar en el rango de -12 dB a 0 dB cuando esté configurando:</p>
+            <table>
+                <tr>
+                    <td class="liclear"><ul><li>el nivel de entrada de una señal</li></ul></td>
+                    <td class="liclear"><ul><li>el nivel de grabación de una pista</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="liclear"><ul><li>Niveles de bus auxiliar</li></ul></td>
+                    <td class="liclear"><ul><li>el nivel general de una mezcla</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="liclear"><ul><li>Niveles de ruta directa</li></ul></td>
+                    <td class="liclear"><ul><li>niveles de salida</li></ul></td>
+                </tr>
+            </table>
+            <p>Cuando está mezclando, el nivel de reproducción de pistas individuales está determinado por cómo suenan en la mezcla, no por niveles medidos. Afortunadamente, si ha configurado correctamente el nivel de grabación de cada pista, será imposible configurar su nivel de reproducción para que supere los 0 dB.</p>
+            <!-- === SIDE IMG === -->
+            <figure class="sideimg">
+                <figcaption>La línea de pico muestra que la señal alcanzó un máximo de -4 dB antes de bajar de nivel.</figcaption>
+                <img src="#" alt="Imagen">
+            </figure>
+            <!-- === .sideimg === -->
+            <p>Para ayudarlo a realizar un seguimiento del volumen de sus señales, una línea de pico que representa el nivel más alto de cada señal permanece durante unos momentos en su medidor después de que el nivel de la señal vuelve a bajar. Esto le permite mirar de un medidor a otro sin preocuparse de que se haya perdido un pico de señal demasiado alto.</p>
+            <p>Puede establecer las líneas máximas para que se "peguen" en sus niveles más altos hasta que las suelte, para asegurarse de que no se pierda nada importante; consulte "PEAK HOLD Sw" en la <a href="/ch27/360.html">página 360</a>.</p>
+            <h4>Medición de nivel pre y post fader</h4>
+            <p>Puede medir el nivel de la mayoría de las señales:</p>
+            <ul>
+                <li>cuando ha viajado por todo su canal excepto su control de nivel de fader final. Esto se denomina "pre-fader" o "pre" para abreviar.</li>
+                <li>después de que su nivel haya sido ajustado por su fader. Esto se denomina "post-fader" o "post".</li>
+            </ul>
+            <p>No puede medir las señales de entrada antes o después del atenuador porque aún no han viajado a través de un canal de entrada. Puede medir la señal de un canal de entrada de esta manera, sin embargo</p>
+            <p>El indicador pre / post de la pantalla de medidores le muestra si está viendo señales pre-fader o post-fader, como se muestra en la ilustración de la <a href="/ch8/116.html">página 116</a>. Los interruptores de medidor (<a href="/ch8/120.html">página 120</a> ) incluyen un interruptor que le permite seleccionar un pre-fader o vista post-fader.</p>
+            <p>En general, querrá ver los niveles de señal post-fader. Sin embargo, puede ser útil ver los niveles de pre-fader cuando tenga un problema y necesite rastrear el punto preciso en el flujo de señal de la señal en el que ocurre el problema.</p>
         </article>
     </div>
      <!-- end #content -->

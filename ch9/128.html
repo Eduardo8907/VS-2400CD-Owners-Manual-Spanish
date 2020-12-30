@@ -78,7 +78,22 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <p>Si su material de origen tiene una frecuencia de muestreo superior a la de su proyecto, considere convertir la frecuencia de muestreo del audio externo a la frecuencia de muestreo del proyecto antes de introducirlo en el VS-2400CD. Hay varios dispositivos y utilidades que puede utilizar para este propósito.</p>
+            <h4>Profundidad de bits</h4>
+            <p>El VS-2400CD graba audio usando 24 bits o 16 bits, según el modo de grabación del proyecto (<a href="/ch7/93.html">Página 93</a> ). Los modos de grabación M24 y MTP utilizan una resolución de 24 bits; los otros modos utilizan una resolución de 16 bits.</p>
+            <p>Si un dispositivo de audio digital externo usa una profundidad de bits superior a la de su proyecto, reduzca la salida del dispositivo a la resolución de grabación del proyecto antes de llevar el audio al VS-2400CD. Si el dispositivo utiliza la misma profundidad de bits o una menor, el VS-2400CD grabará el audio tal cual, a la profundidad de bits seleccionada del proyecto.</p>
+            <p>El VS-2400CD también puede difuminar su salida digital para que coincida con una profundidad de bits inferior utilizada por un dispositivo digital externo que recibe audio del VS-2400CD; consulte la <a href="/ch27/359.html">página 359</a>.</p>
+            <h3>El reloj maestro</h3>
+            <p>Para que dos dispositivos de audio digital se comuniquen correctamente, ambos deben usar la misma referencia de tiempo o "reloj maestro". Si no lo hacen, es probable que el audio digital que intercambian termine en el tono equivocado o que contenga clics y estallidos. El dispositivo que produce el audio digital puede producir la referencia de temporización del reloj maestro. La información de tiempo, llamada "reloj de palabras", se envía junto con la señal de audio digital desde el dispositivo fuente, el "maestro", al dispositivo receptor, llamado "esclavo".</p>
+            <h4>¿Quién debería suministrar el reloj maestro?</h4>
+            <p>Hay dos condiciones básicas en las que traerá señales de audio digital a las entradas digitales del VS-2400CD, y cada una tiene sus propias consideraciones de reloj maestro:</p>
+            <ul>
+                <li>cuando su grabadora de disco duro no se está sincronizando con un dispositivo externo</li>
+                <li>cuando su grabadora de disco duro se está sincronizando con un dispositivo externo</li>
+            </ul>
+            <p>Cuando la grabadora de disco duro del VS-2400CD no se está sincronizando con un dispositivo externo y está recibiendo audio digital de un solo dispositivo externo, utilice el dispositivo externo como fuente del reloj maestro.</p>
+            <p>Cuando el transporte del VS-2400CD se sincroniza con un dispositivo externo y recibe audio digital desde el mismo dispositivo con el que se sincroniza el VS-2400CD, utilice el dispositivo con el que se sincroniza el VS-2400CD y desde el cual se el audio viene como fuente de reloj maestro. Configure el RELOJ MAESTRO en CÓDIGO DE HORA EXT.</p>
+            <p>Cada dispositivo Roland R-BUS tiene sus propias capacidades y parámetros de configuración únicos. El capítulo “Información complementaria” al final de este manual explica cómo configurar cada dispositivo R-BUS para su uso con el VS-2400CD; estas instrucciones incluyen detalles sobre cómo configurar los dispositivos para la transferencia exitosa de audio digital al VS-2400CD .</p>
         </article>
     </div>
      <!-- end #content -->

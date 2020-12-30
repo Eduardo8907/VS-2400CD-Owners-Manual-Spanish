@@ -78,7 +78,30 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <p>Cuando nos referimos a una "unidad" en el resto del Manual del propietario del VS-2400CD, nos referiremos a una partición. Esto refleja esa forma en que el software del VS-2400CD visualiza las particiones y hará que las operaciones relacionadas con el disco y la unidad sean más fáciles de explicar y comprender. Cuando necesitamos hacer referencia a un mecanismo de disco duro completo, lo llamaremos "disco duro".</p>
+            <h3>Preparación de un disco duro para su uso</h3>
+            <p>Antes de poder utilizar un nuevo disco duro interno con el VS-2400CD, debe estar preparado para su uso. El disco duro debe borrarse, formatearse y dividirse en particiones usando el comando FmtDrv (para “Formatear unidad”) descrito en la <a href="/ch7/108.html">página 108</a>.</p>
+            <p>El disco duro interno que vino con su VS-2400CD fue formateado y particionado antes de que las canciones de demostración fueran instaladas de fábrica. Está listo para usarse tal cual.</p>
+            <h3>Cómo se graba el audio en un disco duro VS-2400CD</h3>
+            <p>Cada vez que graba audio en el VS-2400CD, el audio se almacena como un archivo de disco compuesto por datos digitales. Este archivo se llama "toma". Incluye su audio y una marca de tiempo de la fecha y hora en que se realizó la grabación. Hasta que realice una optimización de proyecto (<a href="/ch7/96.html">página 96</a> ), el VS-2400CD conserva todas las tomas que haya grabado en un proyecto.</p>
+            <p>Incluso cuando vuelve a grabar una interpretación, "grabando sobre" su primer intento, la toma original permanece en su disco duro y todavía está disponible para usted si lo desea. Y cuando edita una grabación en el VS-2400CD, en realidad no edita la toma en sí, gracias a la edición no destructiva basada en punteros, de la que hablaremos en breve.</p>
+            <h3>Cómo se reproducen las grabaciones</h3>
+            <h3>Acceso aleatorio</h3>
+            <p>Cuando su VS-2400CD reproduce su música desde un disco duro, utiliza algo llamado reproducción de "acceso aleatorio". La frase “acceso aleatorio” tiene sus raíces en la programación de computadoras, pero lo que significa para usted es esto: la grabadora VS-2400CD puede reproducir instantáneamente cualquier audio en un proyecto ubicado en cualquier lugar de su disco duro.</p>
+            <p>La reproducción de acceso aleatorio produce un par de beneficios muy importantes:</p>
+            <ul>
+                <li>Nunca tendrá que esperar a que la grabadora retroceda o avance rápidamente a una ubicación en un proyecto. El VS-2400CD llega a donde necesita ir en un santiamén.</li>
+                <li>El VS-2400CD puede emplear reproducción y edición basada en puntero.</li>
+            </ul>
+            <h3>¿Qué es la reproducción basada en puntero?</h3>
+            <p>Cuando reproduce una grabación, el VS-2400CD utiliza un conjunto de "punteros" para identificar el audio que desea reproducir. Cada puntero contiene información sobre el audio. Entre otras cosas, los punteros permiten que el VS-2400CD reproduzca partes de una toma, en lugar de tener que reproducir todo el archivo del disco de principio a fin. Un conjunto simple de indicadores podría incluir:</p>
+            <ul>
+                <li>la identidad de la toma que contiene el audio deseado.</li>
+                <li>la ubicación de tiempo dentro de la toma en la que comenzará la reproducción</li>
+                <li>la ubicación de tiempo dentro de la toma en la que finalizará la reproducción.</li>
+            </ul>
+
+
         </article>
     </div>
      <!-- end #content -->

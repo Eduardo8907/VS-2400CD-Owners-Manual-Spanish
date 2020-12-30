@@ -78,7 +78,63 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <h4>Comprensión del informe Drive Check</h4>
+            <p>La parte más importante del Informe de verificación de la unidad es la línea en la parte superior izquierda que dice "No Err", como en la ilustración anterior, o "(x) Err", donde "x" es igual al número de errores encontrados. Si Drive Check encuentra errores, los enumera en el informe; gire el dial de tiempo / valor para verlos. Los elementos marcados con "OK" no tienen problemas.</p>
+            <p>Esto es lo que significan algunos de los términos del informe:</p>
+            <ul>
+                <li>Clúster: la porción más pequeña de datos de disco que lee y escribe el VS-2400CD.</li>
+                <li>Enlace cruzado (X-Link): caso en el que otro hace referencia errónea al audio de un proyecto. Esto puede hacer que el audio de un proyecto se escuche durante la reproducción de otro.</li>
+                <li>Área suelta: un fragmento de datos de audio huérfanos que no están asociados con ningún proyecto.</li>
+                <li>Directorios: la lista de los archivos de cada unidad y dónde se encuentran en el disco. Si un directorio se confunde o se daña, es posible que vea mensajes de error "IllegalDIR".</li>
+            </ul>
+            <table>
+                <tr>
+                    <td><i>Esto:</i></td>
+                    <td><i>Se refiere a:</i></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Número total de clústeres</td>
+                </tr>
+                <tr>
+                    <td>Defect</td>
+                    <td>Número de clústeres dañados o inutilizables</td>
+                </tr>
+                <tr>
+                    <td>Used</td>
+                    <td>Número de clústeres en uso</td>
+                </tr>
+                <tr>
+                    <td>Free</td>
+                    <td>Número de clústeres aún no utilizados</td>
+                </tr>
+                <tr>
+                    <td>X-Link Err</td>
+                    <td>Número de enlaces cruzados</td>
+                </tr>
+                <tr>
+                    <td>Loose Area</td>
+                    <td>Número de conglomerados huérfanos</td>
+                </tr>
+                <tr>
+                    <td>Illegal Dir</td>
+                    <td>Número de directorios con información incorrecta</td>
+                </tr>
+                <tr>
+                    <td>Read Error</td>
+                    <td>Número de problemas de lectura de datos durante la verificación</td>
+                </tr>
+            </table>
+            <h4>Acerca de las capacidades de reparación de Drive Check</h4>
+            <p>Si Disk Check encuentra un problema, puede intentar solucionarlo eliminando los datos que están causando el problema que está experimentando. A menudo, una vez que se eliminan los datos dañados, los problemas que lo llevaron a Drive Check desaparecen.</p>
+            <p>Una vez que Drive Check resuelve un problema, recomendamos hacer una copia de seguridad de todos sus datos, reformatear la unidad y recuperar los datos de la copia de seguridad para asegurarse de que no queden problemas persistentes.</p>
+            <p>Cuando comienza una reparación de Drive Check, el VS-2400CD le advierte que perderá datos. El hecho es que los datos que perderá ya no serán buenos de todos modos, como lo demuestra el hecho de que ha estado experimentando problemas y que Drive Check ha seleccionado los datos para su eliminación.</p>
+            <h4>Ejecución de comprobación de la unidad</h4>
+            <ol>
+                <li>Mantenga presionado SHIFT y presione F1 (PROJECT).</li>
+                <li>Seleccione la unidad que desea verificar.</li>
+                <li>Si "DrvChk" no está visible sobre F1, presione PAGE hasta que aparezca</li>
+            </ol>
         </article>
     </div>
      <!-- end #content -->

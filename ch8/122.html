@@ -78,7 +78,52 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <h3>Indicadores de pico de entrada</h3>
+            <p>Los indicadores de pico de entrada le ayudan a establecer el nivel de las señales que ingresan a las tomas de entrada analógica del VS-2400CD. Los 16 indicadores numerados corresponden a las 8 tomas de entrada analógica y las ocho conexiones de entrada digital R-BUS, respectivamente.</p>
+            <!-- === CENTER IMG === -->
+            <div class>
+                <figure class="centerimg">
+                    <figcaption>En esta ilustración, la señal del canal de entrada 4 es demasiado alta.</figcaption>
+                    <img src="#" alt="Imagen">
+                </figure>
+            </div>
+            <!-- .centerimg -->
+            <p>Cuando está ajustando una perilla SENS (Página 34) para establecer el nivel de entrada para una señal que ingresa a una toma de entrada analógica, aparece un cuadro oscuro alrededor de su indicador de pico de entrada si la señal excede un nivel predeterminado: INPUT PEAK LEVEL (<a href="/ch27/356.html">Página 356</a> ) configura los indicadores de pico de entrada para que se iluminen cuando una señal alcanza -6 dB, -3 dB o 0 dB. Aparece una línea gris claro en la vista de pantalla de los medidores INPUT (<a href="/ch8/120.html">Página 120</a> ) para mostrar el ajuste del umbral de volumen actual de los indicadores de pico de entrada.</p>
+            <h3>Visualización de ubicación de hora actual</h3>
+            <!-- === CENTER IMG === -->
+            <div class>
+                <figure class="centerimg">
+                    <figcaption></figcaption>
+                    <img src="#" alt="Imagen">
+                </figure>
+            </div>
+            <!-- .centerimg -->
+            <p>En la parte superior de muchas de las pantallas del VS-2400CD se encuentra la visualización de la ubicación del tiempo actual, que consta de tres contadores de tiempo del proyecto. Cada uno le muestra la ubicación actual de la línea ahora en el proyecto utilizando su propia forma de medición del tiempo:</p>
+            <table>
+                <tr>
+                    <td>Este contador:</td>
+                    <td>Muestra la hora actual:</td>
+                </tr>
+                <tr>
+                    <td>Código de tiempo</td>
+                    <td>como horas, minutos, segundos, fotogramas y subtramas</td>
+                </tr>
+                <tr>
+                    <td>Medidas y latidos</td>
+                    <td>como compases, tiempos y tics (hay 480 tics en cada latido)</td>
+                </tr>
+                <tr>
+                    <td>Marcadores</td>
+                    <td>mostrando el último marcador que pasó por la línea ahora</td>
+                </tr>
+            </table>
+            <p>Si está grabando instrumentos MIDI desde un secuenciador sincronizado con el VS-2400CD, el contador de compases y tiempos puede facilitar la realización de ediciones de pista muy precisas en el VS-2400CD. Asegúrese de configurar el ritmo y el tempo del proyecto para que coincidan con los del secuenciador antes de grabar. Consulte “Trabajar con un mapa de tempo” en la <a href="/ch23/298.html">página 298</a>.</p>
+            <q>Marco, subchasis, tick</q>
+            <p>El indicador ABS / REL le dice si el tiempo mostrado es:</p>
+            <ul>
+                <li>tiempo absoluto (ABS): basado en la hora de inicio real del proyecto.</li>
+                <li>tiempo relativo (REL): se cambia durante la sincronización del VS-2400CD con un dispositivo externo. Consulte “Cambio de la hora de inicio del proyecto” en la <a href="/ch23/303.html">página 303</a>.</li>
+            </ul>
         </article>
     </div>
      <!-- end #content -->

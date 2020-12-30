@@ -78,7 +78,54 @@
     <!-- === START MAIN CONTENT === -->
     <div class="content" role="main">
         <article>
-            
+            <h3>Elección de una pantalla de parcheo de entrada</h3>
+            <p>Puede enrutar entradas a canales de entrada en cualquiera de las dos pantallas:</p>
+            <!-- === MULTIPLE IMAGES HTML5 === -->
+            <div class="row">
+                <figure class="column">
+                    <figcaption>Pantalla VISTA DE RUTA</figcaption>
+                    <img src="#" alt="Imagen">
+                </figure>
+                <figure class="column">
+                    <figcaption>Esta fila de cuadros muestra todos de su analógico y digital tomas de entrada y conectores.</figcaption>
+                    <figcaption>Este cuadro muestra los 16 canales de entrada.</figcaption>
+                    <figcaption>Las líneas entre las entradas y los canales de entrada son "cables" que representan conexiones. Las flechas de color gris claro a la izquierda de cada pantalla muestran la dirección en la que fluyen las señales de sus cables.</figcaption>
+                </figure>
+                <figure class="column">
+                    <figcaption>Pantalla PATCH BAY</figcaption>
+                    <img src="#" alt="Imagen">
+                </figure>
+            </div>
+            <!-- end images -->
+            <p>Las ilustraciones de arriba muestran las pantallas como aparecen en un proyecto recién creado.</p>
+            <p>Ambas pantallas tienen dos páginas; consulte el <a href="/ch22/277.html">Capítulo 22</a>, cualquiera de las cuales se puede utilizar para enrutamiento. La única diferencia entre las páginas son las opciones del botón F.</p>
+            <table>
+                <tr>
+                    <td>Para llegar al:</td>
+                    <td>Método rápido:</td>
+                    <td>Metodo alternativo:</td>
+                </tr>
+                <tr>
+                    <td>Pantalla PATCH BAY</td>
+                    <td><ol><li>Mantenga presionado SHIFT y presione EZ ROUTING</li></ol></td>
+                    <td><ol><li>Presione EZ ROUTING o F7 en su teclado</li><li>Presione F2 (P.BAY) o F2 en su teclado</li></ol></td>
+                </tr>
+                <tr>
+                    <td>Pantalla VISTA DE RUTA</td>
+                    <td><ol><li>Presione F7 en su teclado</li></ol></td>
+                    <td><ol><li>Presione EZ ROUTING</li><li>Presione F1 (VER) si es necesario</li></ol></td>
+                </tr>
+            </table>
+            <h3>Cómo funcionan las conexiones de entrada</h3>
+            <h4>Perspectiva del canal de entrada</h4>
+            <p>El enrutamiento de entrada se realiza desde el punto de vista de los canales de entrada. Comience seleccionando los canales de entrada deseados y luego elija las señales que desea enrutar a ellos.</p>
+            <h4>Dos por dos</h4>
+            <p>En el sistema de conexión virtual del VS-2400CD, todas las tomas de entrada, conectores de entrada digital y canales de entrada se agrupan en pares pares / impares:</p>
+            <ul>
+                <li>Cuando selecciona canales de entrada, selecciona un par de canales de entrada par / impar.</li>
+                <li>Cuando elige las señales que desea enrutar a esos canales de entrada, selecciona un par impar / par de tomas o conectores de entrada.</li>
+            </ul>
+            <p>Aunque los pares de canales de entrada y entrada están preconfigurados y no se pueden cambiar para aplicar patches, cada canal de entrada funciona de forma independiente a menos que lo haya vinculado a otro canal de entrada (<a href="/ch11/147.html">página 147</a> ). Puede enviar cualquier señal de canal de entrada a cualquier pista.</p>
         </article>
     </div>
      <!-- end #content -->
