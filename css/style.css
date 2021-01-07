@@ -148,6 +148,13 @@ figcaption {
     width:80%;
     text-align: center;
 }
+.button {
+    width: 8%;
+    float: right;
+    clear: both;
+    font-size: 14px;
+    font-weight: bold;
+}
 /* === FOOTER === */
 footer {
     border-top: solid;
